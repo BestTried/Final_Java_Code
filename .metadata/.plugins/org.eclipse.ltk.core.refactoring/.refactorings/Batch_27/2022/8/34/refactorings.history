@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.collections.partice&apos; to &apos;CucumberFeatures&apos;&#x0D;&#x0A;- Original project: &apos;Batch_27&apos;&#x0D;&#x0A;- Destination element: &apos;CucumberFeatures&apos;&#x0D;&#x0A;- Original element: &apos;Batch_27/src/test/java/com.collections.partice&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.collections.partice" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1660458453544" target="CucumberFeatures" version="1.0"/>
+</session>

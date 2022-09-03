@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Zoopla_E2E2COPY&apos; to &apos;Zoopla_New_E2E&apos;" description="Rename resource &apos;Zoopla_E2E2COPY&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Zoopla_E2E2COPY" name="Zoopla_New_E2E" stamp="1661311396063" updateReferences="true"/>
+</session>

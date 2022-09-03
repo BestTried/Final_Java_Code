@@ -1,0 +1,13 @@
+package encap;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+
+		Person pt = new Person();
+		System.out.println(pt.getName());
+		
+	
+	}
+
+}

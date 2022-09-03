@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;practice.Data_Type&apos; to &apos;DataType&apos;&#x0D;&#x0A;- Original project: &apos;First Program&apos;&#x0D;&#x0A;- Original element: &apos;practice.Data_Type&apos;&#x0D;&#x0A;- Renamed element: &apos;practice.DataType&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Data_Type&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;practice{Data_Type.java[Data_Type" matchStrategy="1" name="DataType" qualified="false" references="true" similarDeclarations="false" stamp="1648094734025" textual="false" version="1.0"/>
+</session>
