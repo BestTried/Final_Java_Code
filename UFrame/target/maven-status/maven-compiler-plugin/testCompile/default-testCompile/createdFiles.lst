@@ -1,3 +1,9 @@
+com\usa\failTestRun\ClassA.class
 zoopla\uk\hooks\Hooks.class
+com\usa\failTestRun\ClassB.class
+com\usa\failTestRun\DataProviderExample.class
+com\usa\failTestRun\ParallelTesting.class
+com\usa\failTestRun\CrossBrowserScript.class
 zoopla\uk\stepdefinitions\LoginTest.class
 zoopla\uk\myrunner\MyRunner.class
+com\usa\failTestRun\ClassC.class

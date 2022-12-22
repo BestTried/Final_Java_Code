@@ -2,6 +2,11 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\islam\eclipse-workspace\EcommerceProject\src\test\java\luma\us\runner\MyRunner.java"/>
+			<item value="C:\Users\islam\git\Zoopla_UK_Automation\src\test\java\myPackage"/>
+			<item value="C:\Users\islam\eclipse-workspace\EcommerceProject\pom.xml"/>
+			<item value="C:\Users\islam\git\Zoopla_UK_Automation\src\main\java\zoopla\uk\basepage\BasePage.java"/>
+			<item value="C:\Users\islam\git\Zoopla_UK_Automation"/>
 			<item value="C:\Users\islam\eclipse-workspace\UFrame\testng.xml"/>
 			<item value="C:\Users\islam\eclipse-workspace\First_Prog\src\test\java\com\coding\test\Set_Practice.java"/>
 			<item value="C:\Users\islam\git\Batch_27\Batch_27\src\test\java\com\collections\partice\ArrayListPartice.java"/>
@@ -51,6 +56,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="cc.ny.prac"/>
+			<item value="com.ny.newyork"/>
+			<item value="com.ny.queens"/>
+			<item value="home.work.cart"/>
 			<item value="one.two.three"/>
 			<item value="self.frame.prac"/>
 			<item value="self.prac."/>
@@ -59,6 +68,10 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="CCProblemPrac"/>
+			<item value="E-CommerceProject"/>
+			<item value="EcommerceProject"/>
+			<item value="Magento"/>
 			<item value="UFameW"/>
 			<item value="UFrame"/>
 			<item value="LogIn"/>

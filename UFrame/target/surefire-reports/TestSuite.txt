@@ -1,4 +1,42 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.043 s - in TestSuite
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 36.93 s <<< FAILURE! - in TestSuite
+testParameterWithXML(com.usa.failTestRun.CrossBrowserScript)  Time elapsed: 12.559 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='account_logout']/a"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-SK1893TO', ip: '192.168.1.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\islam\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4093a7637d86b1fb8979ce2e7810ad25
+*** Element info: {Using=xpath, value=.//*[@id='account_logout']/a}
+	at com.usa.failTestRun.CrossBrowserScript.testParameterWithXML(CrossBrowserScript.java:60)
+
+testParameterWithXML(com.usa.failTestRun.CrossBrowserScript)  Time elapsed: 14.47 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='account_logout']/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-SK1893TO', ip: '192.168.1.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29400, moz:profile: C:\Users\islam\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b8c058e0-dea6-4601-bc97-599c93c8de50
+*** Element info: {Using=xpath, value=.//*[@id='account_logout']/a}
+	at com.usa.failTestRun.CrossBrowserScript.testParameterWithXML(CrossBrowserScript.java:60)
+
+testParameterWithXML(com.usa.failTestRun.CrossBrowserScript)  Time elapsed: 15.31 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='account_logout']/a"}
+  (Session info: MicrosoftEdge=105.0.1343.27)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-SK1893TO', ip: '192.168.1.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 105.0.1343.27, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63110}, msedge: {msedgedriverVersion: 105.0.1343.27 (ca9c37b5a3be..., userDataDir: C:\Users\islam\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 179f41a44f044640a4ac2b10d28b2f6a
+*** Element info: {Using=xpath, value=.//*[@id='account_logout']/a}
+	at com.usa.failTestRun.CrossBrowserScript.testParameterWithXML(CrossBrowserScript.java:60)
+
