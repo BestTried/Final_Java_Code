@@ -1,28 +1,28 @@
 package codingInterview;
 
 public class FibonacciSecond {
-	
+
 	public static void main(String[] args) {
 
-	    int n = 10, firstTerm = 0, secondTerm = 1;
+		int max=10, prev = 0, next =1;
+		//System.out.println("Fibonacci Series is  " + max + "  term ");
+		System.out.println( max );
 
-	    System.out.println("Fibonacci Series is  " + n + "  term ");
 
-	    for (int i = 1; i <= n; i++) {
+		for (int i = 1; i <= max; i++) {
 
-	      System.out.print(firstTerm + ", ");
+			System.out.print(prev + ", ");
 
-	      // compute the next term
+			// compute the next term;
 
-	      int nextTerm = firstTerm + secondTerm;
+			int prevNext = prev + next;
 
-	      firstTerm = secondTerm;
+			prev = next;
 
-	      secondTerm = nextTerm;
+			next = prevNext;
 
-	    }
+		}
 
-	  }
-
+	}
 
 }

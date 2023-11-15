@@ -13,7 +13,12 @@ public class SelfGoogle {
 	
 	public static void main(String[] args) throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
-		//System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\islam\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+		
+		//System.setProperty("webdriver.chrome.driver","./chromedriver.exe");
+
+		//driver/chromedriver.exe
+		//C:\Users\islam\Downloads\chromedriver_win32 (1)
 		WebDriver driver= new ChromeDriver();		
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");

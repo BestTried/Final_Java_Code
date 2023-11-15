@@ -14,7 +14,8 @@ public class WikiTeacher {
 
 	public static void main(String[] args) throws InterruptedException {
 		// How to handle multiple elements
-		WebDriverManager.chromedriver().setup();
+		//WebDriver driver = new ChromeDriver();
+		/*WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.wikipedia.org/");
@@ -30,9 +31,10 @@ public class WikiTeacher {
 			}
 			
 		}
-		
+		*/
         // How to handle drop down 1st way
 		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.wikipedia.org/");
@@ -43,6 +45,7 @@ public class WikiTeacher {
 		
 		//How to handle drop down 2nd way
 		WebDriverManager.chromedriver().setup();
+		//WebDriver driver = new ChromeDriver();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://www.wikipedia.org/");

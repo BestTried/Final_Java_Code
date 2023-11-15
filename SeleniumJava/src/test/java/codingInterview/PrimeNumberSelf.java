@@ -4,7 +4,7 @@ public class PrimeNumberSelf {
 	
 	public static void main(String[] args) {
 
-	    int n = 12;
+	    int n = 11;
 	    int count = 0;
 	     if (n <= 1)
 		    count++;

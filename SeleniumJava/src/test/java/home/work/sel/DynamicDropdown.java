@@ -3,44 +3,44 @@ package home.work.sel;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class DynamicDropdown {
-	
+
 	public static void main(String[] args) throws Throwable {
-	
-	System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
-	WebDriver driver = new ChromeDriver();                                  
-	driver.get("https://www.makemytrip.com/");
-	driver.manage().window().maximize();
-	
-	String optionToSelect = "Mumbai";
-	int count=0;
-	//driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/div/div/div/input")).sendKeys("BOM");
-	////label[@for='fromCity']
-	driver.findElement(By.xpath("//label[@for='fromCity']")).sendKeys("BOM");
-	//Thread.sleep(5000);
-	
-	 List<WebElement> optionList = driver.findElements(By.xpath("//p[@class='font14 appendBottom5 blackText']"));
-	
-	 for(WebElement ele: optionList) {
-		 String currentOption= ele.getText();
-		 if(currentOption.contains(optionToSelect)) {
-			 ele.click();
-			 count ++;
-			 break;
-			 
-			 
-		 }
-	 }
-	 	if(count!= 0) {
-	 		System.out.println(optionToSelect + " has been selected in the dropdown");
-	 	}
-	 	else {
-	 		System.out.println("option you want to select not available in the drop down");
-	 	}
-			
+
+		WebDriverManager.chromedriver().setup();
+		// System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://demo.guru99.com/test/newtours/register.php");
+		driver.manage().window().maximize();
+
+		Thread.sleep(3000);
+		// scroll down the page
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,500)");
+
+		// Click on Country Dropdown
+
+		driver.findElement(By.name("country")).click();
+
+		List<WebElement> allOptions = driver.findElements(By.xpath("//select[@name='country']//option"));
+		System.out.println(allOptions.size());
+
+		for (int i = 0; i <= allOptions.size() - 1; i++) {
+
+			if (allOptions.get(i).getText().contains("BANGLADESH")) {
+				allOptions.get(i).click();
+				break;
+
+			}
 		}
+
 	}
+}

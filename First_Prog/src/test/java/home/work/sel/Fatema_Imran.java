@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Fatema_Imran {
+	WebDriver driver;
 	public static void main(String[] args) throws Throwable {
 		
 	

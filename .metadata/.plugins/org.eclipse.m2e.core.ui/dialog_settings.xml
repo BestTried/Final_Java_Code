@@ -56,6 +56,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Testng.assert.validation"/>
 			<item value="cc.ny.prac"/>
 			<item value="com.ny.newyork"/>
 			<item value="com.ny.queens"/>
@@ -68,6 +69,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Testng.assert.validation"/>
 			<item value="CCProblemPrac"/>
 			<item value="E-CommerceProject"/>
 			<item value="EcommerceProject"/>
@@ -91,5 +93,11 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="838"/>
+		<item key="x" value="888"/>
+		<item key="y" value="158"/>
 	</section>
 </section>

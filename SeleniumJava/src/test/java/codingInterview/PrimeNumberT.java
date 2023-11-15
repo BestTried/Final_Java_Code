@@ -4,8 +4,8 @@ public class PrimeNumberT {
 	
 	public static void main(String[] args) {
 		
-		int num= 12;
-		for(int i=2; i<num/2; i++){
+		int num= 11;
+		for(int i=2; i<=num/2; i++){
 			if (num % i==0){	
 		break; 
 			}
@@ -18,5 +18,6 @@ public class PrimeNumberT {
 		
 		
 	}
+
 
 }

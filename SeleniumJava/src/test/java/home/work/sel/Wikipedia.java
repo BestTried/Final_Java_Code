@@ -15,6 +15,7 @@ public class Wikipedia {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		driver.navigate().to("https://www.wikipedia.org/");
 		// Findout Bangla language from dropdown
 		List<WebElement> list = driver.findElements(By.xpath("//select[@id='searchLanguage']/option"));
@@ -28,6 +29,7 @@ public class Wikipedia {
 			if (we.getText().contains("বাংলা")) {
 				Thread.sleep(3000);
 				we.click();
+				break;
 
 			}
 

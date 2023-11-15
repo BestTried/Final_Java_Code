@@ -7,13 +7,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 public class UpsLoginTest {
 
 	public static void main(String[] args) throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver_win32/chromedriver.exe");
-
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.ups.com/us/en/Home.page");
 		driver.manage().window().maximize();
@@ -24,7 +25,7 @@ public class UpsLoginTest {
 		driver.findElement(By.linkText("Sign Up")).click();
 		System.out.println(driver.getTitle());
 		Thread.sleep(5000);
-		
+		/*
 		driver.findElement(By.xpath("//span[@class='icon ups-icon-x']")).click();
 		
 		driver.findElement(By.id("email")).sendKeys("hamid_002@yahoo.com");
@@ -43,6 +44,6 @@ public class UpsLoginTest {
 		//driver.manage().window().maximize();
 		
 		
-
+*/
 	}
 }

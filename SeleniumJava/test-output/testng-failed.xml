@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="home.work.sel.Drag_DropTest">
+      <class name="home.work.sel.Validation_Assertion">
         <methods>
-          <include name="endTest"/>
-          <include name="verifyNumberOfNavigationMenus"/>
+          <include name="testGoogle"/>
         </methods>
-      </class> <!-- home.work.sel.Drag_DropTest -->
+      </class> <!-- home.work.sel.Validation_Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

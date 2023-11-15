@@ -1,37 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="tests" name="FirefoxTest(failed)">
-    <parameter name="browser" value="Firefox"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.usa.failTestRun.CrossBrowserScript">
+      <class name="zoopla.uk.myrunner.MyRunner">
         <methods>
-          <include name="testParameterWithXML"/>
-          <include name="setup"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- com.usa.failTestRun.CrossBrowserScript -->
+      </class> <!-- zoopla.uk.myrunner.MyRunner -->
     </classes>
-  </test> <!-- FirefoxTest(failed) -->
-  <test thread-count="2" parallel="tests" name="ChromeTest(failed)">
-    <parameter name="browser" value="Chrome"/>
-    <classes>
-      <class name="com.usa.failTestRun.CrossBrowserScript">
-        <methods>
-          <include name="testParameterWithXML"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.usa.failTestRun.CrossBrowserScript -->
-    </classes>
-  </test> <!-- ChromeTest(failed) -->
-  <test thread-count="2" parallel="tests" name="EdgeTest(failed)">
-    <parameter name="browser" value="Edge"/>
-    <classes>
-      <class name="com.usa.failTestRun.CrossBrowserScript">
-        <methods>
-          <include name="testParameterWithXML"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.usa.failTestRun.CrossBrowserScript -->
-    </classes>
-  </test> <!-- EdgeTest(failed) -->
-</suite> <!-- Failed suite [TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,17 +1,14 @@
 package home.work.sel;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+
 
 public class AutomationPractice {
 	
 	public static void main(String[] args) throws Throwable {
 
-		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver_win32/chromedriver.exe");
+		System.setProperty("webdriver.geckodriver.driver", "/Drivers/geckodriver.exe");
 
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new FirefoxDriver();
 		driver.get("http://automationpractice.com");
 		driver.manage().window().maximize();
 		

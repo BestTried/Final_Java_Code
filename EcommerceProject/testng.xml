@@ -1,7 +1,0 @@
-<suite name="Suite1" verbose="1">
-	<test name="luma.us.runner">
-		<classes>
-			<class name="luma.us.runner.MyRunner" />
-		</classes>
-	</test>
-</suite>

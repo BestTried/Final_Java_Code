@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.usa.failTestRun.DataProviderExample">
+      <class name="zoopla.uk.myrunner.MyRunner">
         <methods>
-          <include name="loginTest"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- com.usa.failTestRun.DataProviderExample -->
+      </class> <!-- zoopla.uk.myrunner.MyRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

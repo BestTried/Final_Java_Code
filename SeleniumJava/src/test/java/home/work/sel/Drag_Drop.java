@@ -1,5 +1,6 @@
 package home.work.sel;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -9,25 +10,35 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Drag_Drop {
 	
 	
-public static void main(String[] args) {
+public static void main(String[] args) throws InterruptedException {
 		
 		
 		
-	System.setProperty("webdriver.gecko.driver","./Drivers/geckodriver.exe");
-	WebDriver driver = new FirefoxDriver();                                  
-	driver.get("http://www.ericbieller.com");
+	WebDriverManager.chromedriver().setup();
+	WebDriver driver = new ChromeDriver();                       
+	driver.get("https://dhtmlx.com/docs/products/dhtmlxTree/");
 	driver.manage().window().maximize();
 	
-	Actions a = new Actions(driver);
-	driver.manage().timeouts().implicitlyWait(3,TimeUnit.MINUTES);
+	Thread.sleep(5000);
+	Actions act = new Actions(driver);
+	
 	
 		//driver.get("http://www.ericbieller.com");
-		WebElement img=driver.findElement(By.xpath(".//*[@id='post-103923208092']/div/div[3]/p[3]/img"));
-		WebElement e=driver.findElement(By.xpath(".//*[@id='mce-EMAIL']"));
-		a.dragAndDrop(img, e).perform();
+		WebElement src = driver.findElement(By.xpath("//span[text()='Lawrence Block']"));
+		WebElement dest =driver.findElement(By.xpath("//li[text()='Zend Framework in Action']"));
+		act.clickAndHold(src);
+		act.pause(Duration.ofSeconds(2));
+		act.moveToElement(dest);
+		act.pause(Duration.ofSeconds(2));
+		act.release();
+		act.build();
+		act.perform();
+		
 		
 		
 

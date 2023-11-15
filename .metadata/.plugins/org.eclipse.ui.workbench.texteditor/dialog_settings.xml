@@ -8,6 +8,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="&#x09;&#x09;System.out.println(&quot;This is test scenario :&quot; + result.getName());"/>
+			<item value="&#x09;&#x09;// TODO Auto-generated method stub"/>
 			<item value=" throw new io.cucumber.java.PendingException();"/>
 			<item value="&#x09;    // Write code here that turns the phrase above into concrete actions"/>
 			<item value="&#x09;    throw new io.cucumber.java.PendingException();"/>
@@ -21,7 +23,6 @@
 			<item value=" // Write code here that turns the phrase above into concrete actions"/>
 			<item value="throws Throwable"/>
 			<item value="throw new PendingException();"/>
-			<item value="eplace"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

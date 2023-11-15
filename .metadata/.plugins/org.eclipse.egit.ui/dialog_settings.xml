@@ -7,12 +7,16 @@
 		<item value="github.com"/>
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/tpatwary/GlobalTech_B-10_-Basic-Java.git"/>
 		<item value="https://github.com/zohara1977/Luma_Ecommerce.git"/>
+		<item value="https://github.com/tpatwary/Selenium_Automation_Framework_Batch34.git"/>
+		<item value="https://github.com/Trainer-Project/Automation_Excercise_E2E.git"/>
+		<item value="https://github.com/Trainer-Project/SmartTechB34"/>
+		<item value="https://github.com/Trainer-Project/SmartTechB34.git"/>
+		<item value="https://github.com/Trainer-Project/Automation_Excercise_E2E"/>
+		<item value="https://github.com/tpatwary/Selenium_Automation_Framework_Batch34"/>
+		<item value="https://github.com/QA-Alam/TestNG_Framework.git"/>
 		<item value="https://github.com/mmsiddiqi/framework-smart"/>
-		<item value="https://github.com/QA-Alam/GlobalTek_Automation.git"/>
-		<item value="https://github.com/QA-Alam/Zoopla_UK_Automation.git"/>
-		<item value="https://github.com/nizam267u/FacebookFramwork_B27.git"/>
-		<item value="https://github.com/QA-Alam/Batch_27.git"/>
 	</list>
 	<section name="GitImportWizard">
 		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>

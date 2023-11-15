@@ -11,9 +11,5 @@ public class Second_HighestSalaryT {
 		Arrays.sort(num);
 		int result=num[size-2];
 		System.out.println(result);
-		
-		
 	}
-
-
 }

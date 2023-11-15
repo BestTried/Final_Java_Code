@@ -5,32 +5,32 @@ import java.util.ArrayList;
 public class RemoveDupliArray {
 	public static void main(String[] args) {
 		
-		ArrayList<Object>al = new ArrayList<Object>();
+		ArrayList<Object>alist = new ArrayList<Object>();
 		
 		
-		al.add("java");
-		al.add('a');
-		al.add('b');
-		al.add("java");
-		al.add(10.3);
-		al.add('c');
-		al.add(14);
-		al.add("java");
-		al.add(12);
+		alist.add("java");
+		alist.add('a');
+		alist.add('b');
+		alist.add("java");
+		alist.add(10.3);
+		alist.add('c');
+		alist.add(14);
+		alist.add("java");
+		alist.add(12);
 		
-		System.out.println("Before remove duplicate elements : " + al);
+		System.out.println("Before remove duplicate elements : " + alist);
 		
-		for(int i=0; i<al.size();i++) {
-			for(int j= i+1; j<al.size(); j++) {
-				if (al.get(i).equals(al.get(j))) {
+		for(int i=0; i<alist.size();i++) {
+			for(int j= i+1; j<alist.size(); j++) {
+				if (alist.get(i).equals(alist.get(j))) {
 					
-					al.remove(j);
+					alist.remove(j);
 					
 				}
 			}
 		}
 			
-		System.out.println("After remove duplicate elements : " + al);
+		System.out.println("After remove duplicate elements : " + alist);
 		
 	}
 
